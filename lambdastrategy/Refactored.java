@@ -1,3 +1,4 @@
+package lambdastrategy;
 import java.util.List;
 import java.util.function.Predicate;
 
@@ -15,5 +16,6 @@ public class Refactored {
         System.out.println(sumByTest(List.of(1,2,3,4,5,6), (x) -> true));
         System.out.println(sumByTest(List.of(1,2,3,4,5,6), (x) -> x % 2 == 0));
         System.out.println(sumByTest(List.of(1,2,3,4,5,6), (x) -> x % 2 != 0));
+        
     }
 }

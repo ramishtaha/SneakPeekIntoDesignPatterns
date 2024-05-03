@@ -1,3 +1,4 @@
+package lambdastrategy;
 import java.util.List;
 
 public class BadCode{
